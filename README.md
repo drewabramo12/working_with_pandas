@@ -10,12 +10,22 @@ The purpose of this analysis was to depict the relationship between student succ
 
 The district summary is unchanged.
 
+Original:
 ![Original District summary](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/district_summary_original.PNG)
 
+New:
 ![New District summary](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/district_summary_new.PNG)
 
 - How is the school summary affected?
 School summary's math, reading, and overall passing percentages for Thomas High School increase substantially by a relative 30%.
+
+Orginal:
+![Original School summary](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/per_school_sum_original.PNG)
+
+New:
+![New School summary](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/per_school_sum_new.PNG)
+
+
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 Thomas High School's average math and reading scores are unaffected by the change.
 - How does replacing the ninth-grade scores affect the following:
