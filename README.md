@@ -53,7 +53,7 @@ New Reading Grades:
 ![New Grade Reading Passing](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/grade_math_passing_new.PNG)
 
    
-    - Scores by school spending
+- Scores by school spending
 
 The scores by school spending had no differences, however; I did initially find that the original school spending data frame had 100% for all passing reading percentages. This led me to find an initial error in the original code. I was able to trouble shoot by following the variables backwards and discovered that there was a copying error with the line of code `per_school_passing_reading = school_data_complete_df.groupby(['school_name']).count()['student_name']`. This code in actuality should have been `per_school_passing_reading = per_school_passing_reading.groupby(['school_name']).count()['student_name']` and was adjusted as such.
 
@@ -63,9 +63,9 @@ Original School Spending:
 New School Spending:
 ![New School Spending](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/school_spending_new.PNG)
 
-    - Scores by school size
+- Scores by school size
 
-    The scores by school size did not change.
+The scores by school size did not change.
 
 Original School Size:
 ![Original School Size](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/school_size_original.PNG)
@@ -73,9 +73,9 @@ Original School Size:
 New School Size:
 ![New School Size](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/school_size_new.PNG)
 
-    - Scores by school type
+- Scores by school type
 
-    The scores by school type did not change.
+The scores by school type did not change.
 
 Original School Type:
 ![Original School Type](https://github.com/drewabramo12/working_with_pandas/blob/main/Resources/CD_original.PNG)
